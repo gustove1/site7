@@ -1,0 +1,325 @@
+
+/* &display=swap&subset=cyrillic-ext */
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,700,900,&display=swap);
+/* обнуление стилей */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {list-style: none;
+}
+a,
+a:visited {text-decoration: none;
+}
+a:hover {text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body{
+	height: 100%;
+}
+html{
+font-size: 16px;
+}
+body{
+	line-height: 1;
+	font-family: "Roboto";
+	color: #4B4B4B;
+	background: #F5F5F5;
+	
+}
+.wrapper{
+	min-height: 100%;
+	overflow: hidden;
+}
+/* .............................................. */
+
+h1{
+	color: black;
+	font-size: 30px;
+	text-align: center;
+	margin: 30px;
+}
+
+.contact {background: #F5F5F5;
+	padding: 30px;
+
+}
+.contact__title {
+font-weight: 700;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0.15px;
+text-transform: uppercase;
+color: #4B4B4B;
+margin: 0px 0px 28px 0px;
+}
+.contact_conteiner {
+	max-width: 233px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+
+}
+.contact_conteiner__adress {
+	background: url("..//img/contact_1.png") 0 3px no-repeat;
+	margin: 0px 0px 16px 0px;
+	padding-left: 35px;
+}
+.contact_conteiner__telefon {
+	margin: 0px 0px 16px 0px;
+	padding-left: 35px;
+	background: url("..//img/contact_2.png") 0 2px no-repeat;
+
+
+}
+.contact_conteiner__pochta {
+	margin: 0px 0px 17px 0px;
+	padding-left: 37px;
+	background: url("..//img/contact_3.png") 0 5px no-repeat;
+
+
+}
+.contact_conteiner__vremy {
+	padding-left: 37px;
+	background: url("..//img/contact_4.png") 0 3px no-repeat;
+
+}
+
+.zadanie_2 {
+	display: inline-block;
+	text-align: left;
+   max-width: 500px;
+	padding: 30px;
+
+}
+
+ul li{
+	font-size: 12px;
+	text-align: left;
+	background: url("../img/Overline_Mark.png") right 0 no-repeat;
+	margin: 0px 0px 20px 0px;
+	padding-top: 7px;
+	padding-right: 30px;
+
+}
+
+.topnotch__text{
+padding: 280px 0px 312px 210px;
+
+max-width: 793px;
+
+font-weight: 900;
+font-size: 56px;
+line-height: 56px;
+color: #FFFFFF;
+
+}
+
+.topnotch{
+	min-height: 800px;
+
+	background: url("../img/Button.png") 188px bottom no-repeat,url("../img/Bmage.png") 0 0 / cover no-repeat ;
+	margin-bottom: 50px;
+}
+
+
+
+
+
+/* .proba_2__img img{
+	max-width: 100%;
+}
+ */
+
+.block{
+	background: url("../img/Bmage.png") 0 0 /cover no-repeat;
+	min-height: 800px;
+}
+
+
+.block__text{
+	font-weight: 900;
+font-size: 56px;
+line-height: 56px;
+color: #FFFFFF;
+max-width: 800px;
+margin-bottom: 48px;
+padding: 280px 0px 0px 210px;
+
+
+
+}
+
+.block__img{
+	padding-left: 190px;
+}
+
+/* !....................................................................................... */
+.block_impact{
+padding: 112px 0px 0px 210px;
+margin: 0px 0px 100px 0px;
+}
+
+.Zadanie_5 {
+}
+.Zadanie_5__image {
+	margin: 0px 0px -235px 732px;
+}
+.impact {background: url("../img/BGImage.png") 0 0 / cover no-repeat;
+}
+.impact__title {
+margin-bottom: 35px;
+font-weight: 700;
+font-size: 12px;
+line-height: 24px;
+letter-spacing: 2.5px;
+text-transform: uppercase;
+color: #D5D5D5;
+}
+.impact__title img{
+	height: 24px;
+
+
+}
+
+
+
+.impact__text {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #FFFFFF;
+	max-width: 411px;
+
+}
+.impact__conteiner {	
+
+
+}
+.impact__oil {padding-left: 210px; 
+	display: inline-block;
+	margin-right: 24px;
+}
+.oil {display: inline-block;
+	min-height: 76px;
+
+	margin: 0px 0px 3px 0px;
+	padding-left: 80px;
+	background: url("../img/car_oil_1.png") 0 0 no-repeat;
+}
+
+.oil__ves {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #C40B0B;
+}
+.oil__text {
+max-width: 150px;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.15px;
+color: #F5F5F5;
+
+
+}
+.impact__transmision {display: inline-block;
+	margin-right: 24px;
+	
+}
+.transmision {display: inline-block;
+	min-height: 76px;
+
+	margin: 0px 0px 3px 0px;
+	padding-left: 80px;
+	background: url("../img/car_transmission_2.png") 0 0 no-repeat;
+}
+
+.transmision__ves {
+	font-weight: 900;
+font-size: 36px;
+line-height: 42px;
+color: #C40B0B;
+}
+.transmision__text {
+	max-width: 150px;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.15px;
+
+color: #F5F5F5;
+}
+.impact__aligments {display: inline-block;
+	margin-right: 24px;
+}
+.aligments {display: inline-block;
+	min-height: 76px;
+
+	margin: 0px 0px 3px 0px;
+	padding-left: 80px;
+	background: url("../img/car_alignment_3.png") 0 0 no-repeat;
+}
+
+.aligments__ves {
+	font-weight: 900;
+font-size: 36px;
+line-height: 42px;
+color: #C40B0B;
+}
+.aligments__text {
+	max-width: 150px;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.15px;
+
+color: #F5F5F5;
+}
+.impact__repaired {display: inline-block;
+	margin-right: 24px;
+
+}
+.repaired {display: inline-block;
+	min-height: 76px;
+
+	margin: 0px 0px 3px 0px;
+	padding-left: 80px;
+	background: url("../img/car_oil_1.png") 0 0 no-repeat;
+}
+
+.repaired__ves {
+	font-weight: 900;
+font-size: 36px;
+line-height: 42px;
+color: #C40B0B;
+max-width: 150px;
+}
+.repaired__text {
+	max-width: 150px;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.15px;
+
+color: #F5F5F5;
+}
